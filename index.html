@@ -1,0 +1,18 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Freeze Dryer ROI Calculator – Is a Home Freeze Dryer Worth It? | Payback & Electricity Cost</title>
+<meta name=description content="Free home freeze dryer calculator: payback period, electricity cost per batch, yearly savings, and whether your solar battery / generator can run it. Small, Medium, Large, XL.">
+<style>body{font-family:system-ui;max-width:860px;margin:auto;padding:16px;background:#0f1720;color:#e8eef4}h1{color:#7dd3fc}label{display:block;margin:8px 0}input,select{width:100%;padding:8px;border-radius:6px;border:0;margin-top:4px}.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}#out .k{background:#1e293b;padding:12px;border-radius:8px}#out b{display:block;font-size:1.5em;color:#fbbf24}.aff{background:#1e293b;padding:12px;border-radius:8px;margin-top:20px}a{color:#7dd3fc}small{color:#94a3b8}</style></head><body>
+<h1>❄️ Freeze Dryer ROI Calculator</h1><p>Is a home freeze dryer worth it? Estimate payback, electricity cost per batch, and whether your backup battery can handle it.</p>
+<div class=g>
+<label>Unit size<select id=unit><option value=small>Small (4 trays)</option><option value=medium selected>Medium (5 trays)</option><option value=large>Large (6 trays)</option><option value=xl>X-Large (7 trays)</option></select></label>
+<label>Purchase price ($)<input id=price type=number></label>
+<label>Electricity rate ($/kWh)<input id=rate type=number step=.01 value=.15></label>
+<label>Batches per month<input id=batches type=number value=3></label>
+<label>Store-bought freeze-dried value ($ per fresh lb equiv.)<input id=value type=number step=.5 value=8></label>
+<label>Your fresh food cost ($/lb)<input id=foodcost type=number step=.5 value=3></label>
+<label>Bags + O₂ absorbers per batch ($)<input id=consum type=number value=6></label>
+<label>Battery capacity (kWh, e.g. EcoFlow Delta Pro = 3.6)<input id=battery type=number step=.1 value=3.6></label>
+</div><h2>Results</h2><div id=out class=g></div>
+<div class=aff><h3>Gear</h3><p>Planning to run it off-grid? Size your backup power with <a href="https://power7070-cloud.github.io/griddown/">GridDown – Backup Power Calculator</a>.</p><small>Some links may be affiliate links. Estimates are approximations based on typical manufacturer specs; verify with your model.</small></div>
+<h2>FAQ</h2><p><b>How much electricity does a freeze dryer use?</b> A medium unit draws roughly 1–1.5 kW average over a 20–40 hour batch, about 30–40 kWh, or ~$4–6 at $0.15/kWh.</p><p><b>How long to pay off?</b> For a family running 2–4 batches/month replacing store-bought freeze-dried food, payback is typically 1–3 years.</p>
+<script src=app.js></script></body></html>
